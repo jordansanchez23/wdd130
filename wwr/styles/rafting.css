@@ -70,7 +70,7 @@ nav.sociallinks a {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    width: 70%; /* Ancho del rectángulo */
+    width: 70%; 
     background-color: rgba(15, 26, 131, 0.7); 
     padding: 20px; 
     border-radius: 20px; 
@@ -115,4 +115,4 @@ footer img {
     width: 40px;
     height: auto;
     margin: 5px;
-}
+} 
