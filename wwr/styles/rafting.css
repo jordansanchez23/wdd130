@@ -3,7 +3,7 @@ body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
-    margin: 0;
+    margin: 0 auto;
 }
 
 :root {
@@ -26,24 +26,41 @@ h1, h2 {
     color: var(--primary-color);
 }
 
-
 header {
     padding: 20px;
     background-color: var(--accent1-color);
+    border-bottom: 2px solid var(--nav-background-color);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    border-radius: 12px;
 }
 
+header img {
+    max-height: 95px; 
+    height: auto;
+    width: auto;
+    margin-right: 20px; 
+}
 
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+    border-radius: 12px;
+    
 }
 
 nav a {
-    display: block;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
+    
 }
 
 nav a:link, nav a:visited {
@@ -61,6 +78,7 @@ nav.sociallinks a {
 
 .hero {
     position: relative;
+    
     
 }
 
@@ -91,7 +109,7 @@ nav.sociallinks a {
 .hero article img {
     width: 30%; 
     float: right; 
-    margin-left: 20px; 
+    margin-left: 0px; 
 }
 
 .title-box {
@@ -111,8 +129,84 @@ nav.sociallinks a {
     color: white; 
 }
 
+
+.history-title {
+    display: block;
+    text-align: center;
+}
+.history-content {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+}
+
+.history-content p {
+    flex: 1; 
+    text-align:justify;
+}
+
+.history-content img {
+    max-width: 20%; 
+    height: auto; 
+    border-radius: 12px;
+    margin: 0 20px; 
+}
+
+
+
+.title-adventures {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.images-adventures {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    
+
+}
+
+.images-adventures img {
+    width: 100%;
+    height: auto;
+}
+
+.images-adventures figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.images-adventures figcaption {
+    margin-top: 10px;
+}
+
+
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--nav-background-color);
+    border-radius: 12px;
+
+}
+
 footer img {
     width: 40px;
     height: auto;
     margin: 5px;
+    
 } 
+
