@@ -7,7 +7,7 @@ body {
 }
 
 :root {
-    --primary-color: #114B5F;
+    --primary-color: #88D498;
     --secondary-color: #1A936F;
     --accent1-color: #F3E9D2;
     --accent2-color: #88D498;
@@ -16,7 +16,7 @@ body {
     --paragraph-font: 'Roboto', sans-serif;
 
     --nav-background-color: #114B5F;
-    --nav-link-color: #1A936F;
+    --nav-link-color: #94ff4c;
     --nav-hover-link-color: #F3E9D2;
     --nav-hover-background-color: #88D498;
 }
