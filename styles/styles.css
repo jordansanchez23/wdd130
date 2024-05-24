@@ -25,13 +25,13 @@ nav a {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
-    color: #fff;
+    color: black;
 }
 
 /*Styling for main heading*/
 h1 {
     border-bottom: 2px solid rgb(7, 3, 202);
-    color: steelblue;
+    color: black;
 }
 
 /*Styling for images inside main*/
@@ -101,5 +101,9 @@ footer {
     border: 1px;
     padding: 1rem;
     background-color: #800606;
-    color:#d0adf0 
+    color: yellow 
+}
+
+.box li a {
+    color: yellow;
 }
