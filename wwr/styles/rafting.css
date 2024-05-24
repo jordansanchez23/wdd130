@@ -23,7 +23,7 @@ body {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--nav-background-color);
 }
 
 header {
@@ -210,3 +210,111 @@ footer img {
     
 } 
 
+/*HTML FORM */
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+    margin-bottom: 40px;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: #94ff4c;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;   
+    align-items: center;
+    margin: 0.5rem 0; 
+}
+
+.form-item.column2 label{
+    display: flex;
+    align-items: center;
+}
+
+/*Contact us Section */
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contact-info {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.map {
+    flex: 1;
+}
+
+.contact-info p {
+    margin: 40px 0;
+}
+
+.map iframe {
+    width: 90%;
+    height: 450px;
+    border: 10px solid #94ff4c
+}
