@@ -322,3 +322,67 @@ button:hover {
     height: 450px;
     border: 10px solid #94ff4c
 }
+
+/*Trips page */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--nav-hover-link-color);
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
+.banner-content {
+    flex: 1;
+}
+
+.cont-button {
+    display: inline-block;
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cont-button:hover {
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+}
+
+.title {
+    text-align: center;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+thead th {
+    background-color: #000;
+    color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: 700;
+    font-style: italic;
+}
+
